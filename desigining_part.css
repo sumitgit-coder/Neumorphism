@@ -1,0 +1,174 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: #e5e5e5;
+}
+.copy {
+	margin-top:-40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copy a {
+text-decoration: none;
+}
+/*<!-- complete code design for Youtube channel :- EAZY CODES By Sumit -->*/
+.container{
+	width: 500px;
+	height: 500px;
+	margin:55px auto;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+	border-radius: 120px;
+	box-shadow: inset -15px -15px 10px white,inset 15px 15px 10px gray;
+	background:#e5e5e5;
+}
+.container:hover{
+	box-shadow: inset 4px 4px 6px white,inset 0px -2px 2px white;
+	transform: translate3d(-50%,-50%);
+}
+/*<!-- complete code design for Youtube channel :- EAZY CODES By Sumit -->*/
+.text1{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:34%;
+	left:40%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.text2{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:34%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.text3{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:34%;
+	left:58.5%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.text4{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:51.5%;
+	left:40%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.text5{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:51.5%;
+	left:49%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.text6{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:51.5%;
+	left:59%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.text7{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:70.5%;
+	left:40%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.text8{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:70.5%;
+	left:49.5%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.text9{
+	font-weight: 300;
+	font-size: 20px;
+	position: absolute;
+	top:70.5%;
+	left:59%;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+.Buttons{
+	width: 400px;
+}
+input{
+	margin:25px;
+	width: 75px;
+	height: 75px;
+	-webkit-appearance:none;
+	box-shadow: 6px 6px 12px #434343, -6px -6px 12px #5b5b5b;
+	outline: none;
+	cursor:pointer;
+	border-radius: 50%;
+	position: relative;
+}
+input:hover{
+	box-shadow: inset 4px 4px 6px white,inset 0px -2px 2px white;
+	transform: translate3d(-50%,-50%);
+}
+input:checked{
+	box-shadow: inset 6px 6px 12px #434343,inset -6px -6px 12px #5b5b5b;
+}
+input::before{
+	content: '\f1eb';
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 1.8rem;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #757575;
+}
+input:checked::before{
+	color:#FF0000;
+}
+input:nth-child(2)::before{
+	content: '\f028';
+}
+input:nth-child(3)::before{
+	content: '\f007';
+}
+input:nth-child(4)::before{
+	content: '\f186';
+}
+input:nth-child(5)::before{
+	content: '\f011';
+}
+input:nth-child(6)::before{
+	content: '\f027';
+}
+input:nth-child(7)::before{
+	content: '\f0f3';
+}
+input:nth-child(8)::before{
+	content: '\f030';
+}
+input:nth-child(9)::before{
+	content: '\f017';
+}
